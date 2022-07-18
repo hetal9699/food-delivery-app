@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maxwidth{
+    max-width: 425px;
+}
+.bg_ligthorange{
+    background-color:rgba(221, 216, 210, 0.504);
+}
+.color_tomato{
+    color:orangered;
+}
+.color_pink{
+    color:mediumvioletred;
+}
+.color_blue{
+    color:navy;
+}
+.livefontsize{
+    font-size: 60px;
+}
+::placeholder{
+    color:orangered ;
+}
+.iconwidth{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    line-height: 35px;
+}
+.menubarimages{
+    width: 50px;
+    height: 50px;
+}
+.rainydaybgimg{
+    background-image: url(../images/rainydayimages.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.offerbgimage{
+    background-image: url(../images/burgerpizza.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.buy1get1bgimg{
+    background-image: url(../images/buy\ one\ get\ one.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.frankiebg{
+    background-image: url(../images/Frankie.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.gujsnacksbg{
+    background-image: url(../images/gujarati\ snacks.avif);
+    background-size: cover;
+    background-position: center; 
+}
+.ramsweet{
+    background-image: url(../images/4-mithai-.webp);
+    background-size: cover;
+    background-position: center; 
+}
+.burgerking{
+    background-image: url(../images/burgerpizza.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.gquick{
+    
+    height: 100px;
+}
+.starfont{
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 15px;
+}
+.ratingfont{
+    font-size: 13px;
+}
+    .footericon{
+        text-align: center;
+    }
+    .footericon a{
+        text-decoration: none;
+    }
+     .swiggyfootericon{
+        width: 20px;
+        height: 20px;
+     }

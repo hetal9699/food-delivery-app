@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food delivery App </title>
+    <link rel="stylesheet" href="css/fooddelivery.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="maxwidth mx-auto  bg-light ">
+            <div class="row justify-content-between p-2 ">
+                <div class=" col w-100 dropdown me-5 pe-5 ">
+                    <i class="fa-solid fa-paper-plane color_tomato"></i>
+                    <button class="btn btn-light text-secondary  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Search for a location
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Sayajigunj</a></li>
+                        <li><a class="dropdown-item" href="#">Akota </a></li>
+                        <li><a class="dropdown-item" href="#">Subhanpura</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-2 pb-4 ">
+                    <div class="iconwidth bg-secondary rounded-circle text-center   ">
+                        <i class="fa-solid fa-user text-white"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row  ps-2">
+                <form class="container-fluid">
+                    <div class="input-group w-100  bg-light rounded-2">
+                        <input type="text" class="form-control border-0"
+                            placeholder="Search for restaurant,items and more" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        <span class="input-group-text border-0 bg-white" id="basic-addon1"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+
+                    </div>
+                </form>
+
+            </div>
+            <div class="row px-3 pt-4">
+                <div class="col text-center ">
+                    <div class="p-3 bg_ligthorange rounded-3 ">
+                        <img src="images/food.png" class="menubarimages rounded-3   " alt="">
+                    </div>
+
+                    <span class="text-center fs-6 text-secondary pt-2">food</span>
+                </div>
+                <div class="col text-center mx-3  ">
+                    <div class="p-3 bg_ligthorange rounded-3 ">
+                        <img src="images/instamart.png " class="menubarimages rounded-3 " alt="">
+
+                    </div>
+                    <span class="text-center fs-6 text-secondary pt-2">Instamart</span>
+                </div>
+                <div class="col text-center">
+                    <div class="p-3 bg_ligthorange rounded-3">
+                        <img src="images/genie.webp" class="menubarimages rounded-3 " alt="">
+
+                    </div>
+                    <span class="text-center fs-6 text-secondary pt-2">genie</span>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div id="carouselExampleControls w-75" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-6 d-block w-75 mx-auto rounded-4 offerbgimage p-3   ">
+                                <span class="text-white m-0 p-0 fs-6 fw-bolder"> Food</span>
+                                <h3 class="fs-2 text-white pt-3">50 % OFF & get free delivery</h3>
+                                <p class=" fs-6 text-warning m-0 p-0 pe-5 me-5">Use coupon </p>
+                                <span class=" text-info fs-4"> 50% off </span>
+                                <div>
+                                    <span class=" bg-light px-2 rounded-pill fs-6 fw-bolder  text-black mt-5 my-5"><i
+                                            class="fa-solid fa-arrow-right-long"></i></spa>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-6 d-block w-75 mx-auto rounded-4  rainydaybgimg p-3   ">
+                                <span class="text-white m-0 p-0 fs-6 fw-bolder">Instamart</span>
+                                <h3 class="fs-2 text-warning pt-3 m-0">RAINY DAY !!</h3>
+                                <h3 class="fs-2 text-warning  m-0">GET 50% OFF</h3>
+                                <p class=" fs-6 text-info m-0"> Use Coupon </p>
+                                <span class=" text-black fs-4"> UGC1234 </span>
+                                <div>
+                                    <span class=" bg-light px-2 rounded-pill fs-6 fw-bolder  text-black mt-5 my-5"><i
+                                            class="fa-solid fa-arrow-right-long"></i></spa>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-6 d-block w-75 mx-auto rounded-4  rainydaybgimg p-3   ">
+                                <span class="text-white m-0 p-0 fs-6 fw-bolder">Instamart</span>
+                                <h3 class="fs-2 text-warning pt-3 m-0">RAINY DAY !!</h3>
+                                <h3 class="fs-2 text-warning  m-0">GET 50% OFF</h3>
+                                <p class=" fs-6 text-info m-0"> Use Coupon </p>
+                                <span class=" text-black fs-4"> UGC1234 </span>
+                                <div>
+                                    <span class=" bg-light px-2 rounded-pill fs-6 fw-bolder  text-black mt-5 my-5"><i
+                                            class="fa-solid fa-arrow-right-long"></i></spa>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+<div class="px-4">
+    <div class="col bg-white rounded-4  my-4">
+        <img src="images/pexels-ella-olsson-1640777.jpg" class="img-fluid rounded-4 " alt="">
+        <div class="mt-3 p-3">
+            <h3 class="fs-2 color_tomato ">Fantastic food and where to find them!</h3>
+            <p class="color_tomato">Cusines from around the world</p>
+           
+            <form class="container-fluid explorefood p-0 color_tomato">
+                <div class="input-group w-100 border border-secondary bg-light rounded-2">
+                    <input type="text" class="form-control explorefood border-0 "
+                        placeholder="Explore food" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <span class="input-group-text border-0 bg-white" id="basic-addon1"><i class="fa-solid fa-mug-hot color_tomato fs-4"></i></span>
+
+                </div>
+            </form>
+        </div>
+        
+
+    </div>
+    <div class="col bg-white rounded-4  my-4">
+        <img src="images/supermarket.jpg" class="img-fluid rounded-4 " alt="">
+        <div class="mt-3 p-3">
+            <h3 class="fs-2 color_pink ">Fantastic food and where to find them!</h3>
+            <p class="color_pink">Cusines from around the world</p>
+           
+            <form class="container-fluid explorefood p-0 color_tomato">
+                <div class="input-group w-100 border border-secondary bg-light rounded-2">
+                    <input type="text" class="form-control explorefood border-0 "
+                        placeholder="Explore instamart" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <span class="input-group-text border-0 bg-white" id="basic-addon1"><i class="fa-solid fa-basket-shopping fs-4 color_pink"></i></span>
+
+                </div>
+            </form>
+        </div>
+        
+
+    </div>
+    <div class="col bg-white rounded-4  mt-4">
+        <img src="images/supermarket.jpg" class="img-fluid rounded-4 " alt="">
+        <div class="mt-3 p-3">
+            <h3 class="fs-2 color_blue ">Anything you need,delivered.</h3>
+            <p class="color_blue">Pickup & drop any items</p>
+           
+            <form class="container-fluid explorefood p-0 color_tomato">
+                <div class="input-group w-100 border border-secondary bg-light rounded-2">
+                    <input type="text" class="form-control explorefood border-0 "
+                        placeholder="Explore Genie" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <span class="input-group-text border-0 bg-white" id="basic-addon1"><i class="fa-solid fa-gift fs-4 color_blue"></i></span>
+
+                </div>
+            </form>
+        </div>
+        
+
+    </div>
+</div>
+            
+            <div>
+                <h2 class="  livefontsize m-0 p-0">live it up! </h2>
+                <h2 class="livefontsize m-0 p-0"></h2>
+                <p>Crafted with <i class="fa-solid fa-heart text-danger pt-4"></i> in Bebgaluru,india</p>
+            </div>
+        </div>
+        <div class="row bg-light border-top border-secondary pt-4 ">
+            <div class=" col footericon float-start">
+                <a href="fooddeliver.html">
+                    <img src="images/swiggy-logo.webp" class="swiggyfootericon" alt="">
+                    <p class="text-secondary fs-6">Swiggy</p>
+                </a>
+    
+            </div>
+            <div class=" col footericon float-start">
+                <a href="food.html">
+                    <i class="fa-solid fa-mug-hot text-black fs-4 text-black"></i>
+                    <p class="text-secondary fs-6">Food</p>
+                </a>
+    
+            </div>
+            <div class="col footericon float-start ">
+                <a href="#offer">
+                    <i class="fa-solid fa-basket-shopping fs-4 text-black"></i>
+                    <p class="text-secondary fs-6">Instamart</p>
+                </a>
+    
+            </div>
+            <div class=" col footericon float-start">
+                <a href="#gallery">
+                    <i class="fa-solid fa-gift fs-4 text-black"></i>
+                    <p class="text-secondary fs-6">Genie</p>
+                </a>
+    
+            </div>
+            
+
+        </div>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
